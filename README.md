@@ -2,7 +2,7 @@
 # Arduino Uno Blinking LED Project
 
 
-This project demonstrates how to make the built-in LED on your Arduino Uno blink on and off every second. It's a simple introduction to programming with Arduino, perfect for beginners who want to get started without any external components.
+This project demonstrates how to make the built-in LED on your Arduino Uno blink on and off every 5 seconds. It's a simple introduction to programming with Arduino, perfect for beginners who want to get started without any external components.
 
 ---
 
@@ -58,11 +58,11 @@ void setup() {
 void loop() {
   // Turn the LED on
   digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000); // Wait for one second
+  delay(5000); // Wait for 5 seconds
   
   // Turn the LED off
   digitalWrite(LED_BUILTIN, LOW);
-  delay(1000); // Wait for one second
+  delay(5000); // Wait for 5 seconds
 }
 ```
 
@@ -90,7 +90,7 @@ void loop() {
 
 ## Explanation
 - The **`setup()`** function runs once when the Arduino is powered on or reset. It tells the board to set the built-in LED pin as an output.
-- The **`loop()`** function runs over and over again forever. It turns the LED on and off, each time waiting for 1 second (`1000 milliseconds`) in between.
+- The **`loop()`** function runs over and over again forever. It turns the LED on and off, each time waiting for 5 seconds (`5000 milliseconds`) in between.
 
 ---
 
