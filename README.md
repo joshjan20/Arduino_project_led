@@ -1,6 +1,7 @@
 ```markdown
 # Arduino Uno Blinking LED Project
 
+
 This project demonstrates how to make the built-in LED on your Arduino Uno blink on and off every second. It's a simple introduction to programming with Arduino, perfect for beginners who want to get started without any external components.
 
 ---
